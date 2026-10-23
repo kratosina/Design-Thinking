@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  selection-background-color: #ffffff;
+  selection-color: #000000;
+}
+
+::selection {
+  background: #ffffff;
+  color: #000000;
+}
